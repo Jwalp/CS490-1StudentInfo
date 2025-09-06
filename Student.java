@@ -42,15 +42,6 @@ public class Student {
 
     @Override
     public String toString(){
-        return String.format(
-        "{ \"UCID\": \"%s\", \"firstName\": \"%s\", \"lastName\": \"%s\", " +
-        "\"gitHubUserName\": \"%s\", \"discordUserName\": \"%s\", " +
-        "\"cartoon\": \"%s\", \"programmingLanguage\": \"%s\", " +
-        "\"movie\": \"%s\", \"section\": \"%s\" }",
-        UCID, firstName, lastName, gitHubUserName, discordUserName,
-        cartoon, programmingLanguage, movie, section
-        );
-        
-
+        return String.format("{ \"UCID\": \"%s\", \"firstName\": \"%s\", \"lastName\": \"%s\", \"gitHubUserName\": \"%s\", \"discordUserName\": \"%s\", \"cartoon\": \"%s\", \"programmingLanguage\": \"%s\", \"movie\": \"%s\", \"section\": \"%s\" }", UCID, firstName, lastName, gitHubUserName, discordUserName, cartoon, programmingLanguage, movie, section);
     }
 }
