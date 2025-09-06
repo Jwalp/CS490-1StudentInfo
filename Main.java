@@ -16,6 +16,7 @@ public class Main {
                 "103"                           
             );
 
+//            System.out.println(student.toString());
 
             api.addStudent(student.toString());
             
@@ -23,7 +24,7 @@ public class Main {
 
             api.updateStudent(student.toString());
             
-            api.deleteStudent("test01933", "103");
+//            api.deleteStudent("test01933", "103");
 
         } catch (Exception g) {
             g.printStackTrace();

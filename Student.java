@@ -42,6 +42,6 @@ public class Student {
 
     @Override
     public String toString(){
-        return String.format("{ \"UCID\": \"%s\", \"firstName\": \"%s\", \"lastName\": \"%s\", \"gitHubUserName\": \"%s\", \"discordUserName\": \"%s\", \"cartoon\": \"%s\", \"programmingLanguage\": \"%s\", \"movie\": \"%s\", \"section\": \"%s\" }", UCID, firstName, lastName, gitHubUserName, discordUserName, cartoon, programmingLanguage, movie, section);
+        return String.format("{ \"UCID\": \"%s\", \"first_name\": \"%s\", \"last_name\": \"%s\", \"github_username\": \"%s\", \"discord_username\": \"%s\", \"favorite_cartoon\": \"%s\", \"favorite_language\": \"%s\", \"movie_or_game_or_book\": \"%s\", \"section\": \"%s\" }", UCID, firstName, lastName, gitHubUserName, discordUserName, cartoon, programmingLanguage, movie, section);
     }
 }
