@@ -5,11 +5,11 @@ public class Main {
         StudentApiClient api = new StudentApiClient();
         try {
             Student student = new Student(
-                "jrw44",                         
-                "Jonathan",                        
-                "Walpow",                      
-                "jwalp",                     
-                "Ninja33910",                   
+                "test01933",                         
+                "test",                        
+                "test",                      
+                "test",                     
+                "test",                   
                 "Gravity Falls",   
                 "Java",                         
                 "Splatoon",                    
@@ -19,11 +19,11 @@ public class Main {
 
             api.addStudent(student.toString());
             
-            api.getStudent("jrw44", "103");
+            api.getStudent("test01933", "103");
 
             api.updateStudent(student.toString());
             
-            api.deleteStudent("jrw44", "103");
+            api.deleteStudent("test01933", "103");
 
         } catch (Exception g) {
             g.printStackTrace();
